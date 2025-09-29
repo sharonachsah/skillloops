@@ -239,13 +239,6 @@ Ideas you can add to make SkillLoops production-ready:
 
 ---
 
-## Contributors & Contact
-
-* Built as a learning / interview project template.
-* If you want guided additions (admin UI, challenge runner, deployment configs), open an issue or PR in the repo.
-
----
-
 ## License
 
 MIT — feel free to use and adapt. Please do not ship copyrighted third-party assets.
