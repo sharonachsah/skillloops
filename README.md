@@ -7,7 +7,6 @@ This repo provides a Vite + React frontend, Node + Express backend, MongoDB (Mon
 
 ## Table of contents
 
-* [Demo / Purpose](#demo--purpose)
 * [Features](#features)
 * [Tech stack](#tech-stack)
 * [Repo structure](#repo-structure)
@@ -24,20 +23,6 @@ This repo provides a Vite + React frontend, Node + Express backend, MongoDB (Mon
 * [Troubleshooting & common fixes](#troubleshooting--common-fixes)
 * [Extending & next steps](#extending--next-steps)
 * [License](#license)
-
----
-
-## Demo / Purpose
-
-SkillLoops demonstrates a realistic interview project showcasing:
-
-* Full-stack design (React + Node + MongoDB)
-* Auth (Firebase client + Admin verification on server)
-* Role-based actions (creator vs learner)
-* Good UI/UX foundations (Tailwind + Headless UI)
-* Product thinking: micro-courses, lessons, challenges, progress, leaderboards
-
-Seed data models real learning content: JS fundamentals, React, Node, DB, algorithms, coding stubs and MCQs.
 
 ---
 
