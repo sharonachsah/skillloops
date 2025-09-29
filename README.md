@@ -1,6 +1,6 @@
 # SkillLoops — Micro-learning + Practice Loops
 
-**SkillLoops** is an interview-friendly full-stack project: bite-sized micro-courses, lessons.
+**SkillLoops** is a full-stack project: bite-sized micro-courses, lessons.
 This repo provides a Vite + React frontend, Node + Express backend, MongoDB (Mongoose) models, Firebase Auth integration and seed data to quickly demo functionality.
 
 ---
