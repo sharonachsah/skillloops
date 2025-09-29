@@ -1,7 +1,7 @@
 # SkillLoops — Micro-learning + Practice Loops
 
-**SkillLoops** is an interview-friendly full-stack project: bite-sized micro-courses, lessons, auto-generated practice challenges, and collaborative timed challenge rooms with realtime scoreboards.
-This repo provides a Vite + React frontend, Node + Express backend, MongoDB (Mongoose) models, Firebase Auth integration, Socket.IO realtime rooms, and seed data to quickly demo functionality.
+**SkillLoops** is an interview-friendly full-stack project: bite-sized micro-courses, lessons.
+This repo provides a Vite + React frontend, Node + Express backend, MongoDB (Mongoose) models, Firebase Auth integration and seed data to quickly demo functionality.
 
 ---
 
@@ -19,7 +19,6 @@ This repo provides a Vite + React frontend, Node + Express backend, MongoDB (Mon
   * [Install & run](#install--run)
 * [Seeding the database](#seeding-the-database)
 * [API reference (important endpoints)](#api-reference-important-endpoints)
-* [Socket.IO events](#socketio-events)
 * [Frontend notes](#frontend-notes)
 * [Deployment suggestions](#deployment-suggestions)
 * [Troubleshooting & common fixes](#troubleshooting--common-fixes)
@@ -35,7 +34,6 @@ SkillLoops demonstrates a realistic interview project showcasing:
 * Full-stack design (React + Node + MongoDB)
 * Auth (Firebase client + Admin verification on server)
 * Role-based actions (creator vs learner)
-* Realtime collaborative "Challenge Rooms" (Socket.IO)
 * Good UI/UX foundations (Tailwind + Headless UI)
 * Product thinking: micro-courses, lessons, challenges, progress, leaderboards
 
@@ -46,8 +44,7 @@ Seed data models real learning content: JS fundamentals, React, Node, DB, algori
 ## Features
 
 * Firebase Auth (Email/Password + Google) on client; server verifies ID tokens via Firebase Admin.
-* CRUD for Courses, Lessons, Challenges with Mongoose schemas.
-* Rooms with realtime scoreboard (Socket.IO) and persistent scoreboard storage.
+* CRUD for Courses, Lessons.
 * TailwindCSS for layout, Headless UI optional for components.
 * Seed script that inserts meaningful sample data.
 * REST API versioned at `/api/v1`.
@@ -56,7 +53,7 @@ Seed data models real learning content: JS fundamentals, React, Node, DB, algori
 
 ## Tech stack
 
-* Frontend: React + Vite, React Router, TailwindCSS, Axios, Zustand (or Context), React Query (optional), socket.io-client
+* Frontend: React + Vite, React Router, TailwindCSS, Axios, Zustand (or Context), React Query (optional)
 * Backend: Node.js (ESM) + Express, Mongoose (MongoDB Atlas or local), Firebase Admin SDK (token verification), Socket.IO
 * Database: MongoDB (Atlas recommended)
 * Deployment: Vercel (frontend), Render/Railway (backend) suggested
